@@ -71,6 +71,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 *VERSION              38;5;220;1
 *NOTICE               38;5;220;1
 *CHANGES              38;5;220;1
+*CHANGELOG            38;5;220;1
 .log                  38;5;190
 # plain-text {{{2
 .txt                  38;5;253
@@ -107,6 +108,8 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .docm                 38;5;111;4
 .doc                  38;5;111
 .docx                 38;5;111
+.dot                  38;5;111
+.dotx                 38;5;111
 .eps                  38;5;111
 .ps                   38;5;111
 .odb                  38;5;111
@@ -115,6 +118,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 # presentation {{{3
 .odp                  38;5;166
 .pps                  38;5;166
+.ppsx                 38;5;166
 .ppt                  38;5;166
 .pptx                 38;5;166
 #   Powerpoint show
@@ -131,6 +135,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 #   Excel spreadsheet
 .xls                  38;5;112
 .xlsx                 38;5;112
+.xlsb                 38;5;112
 #   Excel spreadsheet with macros
 .xlsxm                38;5;112;4
 #   Excel module
@@ -160,14 +165,15 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .gitmodules           38;5;240
 
 # shell {{{2
+.BAT                  38;5;172
 .awk                  38;5;172
 .bash                 38;5;172
 .bat                  38;5;172
-.BAT                  38;5;172
+.exe                  38;5;172
 .sed                  38;5;172
 .sh                   38;5;172
-.zsh                  38;5;172
 .vim                  38;5;172
+.zsh                  38;5;172
 
 # interpreted {{{2
 .ahk                  38;5;41
@@ -324,11 +330,13 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .drw                  38;5;99
 .ps                   38;5;99
 .svg                  38;5;99
+.svgz                 38;5;99
 # }}}
 # video {{{1
 .avi                  38;5;114
 .divx                 38;5;114
 .IFO                  38;5;114
+.ifo                  38;5;114
 .m2v                  38;5;114
 .m4v                  38;5;114
 .mkv                  38;5;114
@@ -340,6 +348,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .ogm                  38;5;114
 .rmvb                 38;5;114
 .sample               38;5;114
+.swf                  38;5;114
 .wmv                  38;5;114
   # mobile/streaming {{{2
 .3g2                  38;5;115
@@ -489,6 +498,7 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .swo                  38;5;244
 .tmp                  38;5;244
 .sassc                38;5;244
+.!ut                  38;5;244
 # state files
 .pid                  38;5;248
 .state                38;5;248
@@ -614,8 +624,10 @@ STICKY_OTHER_WRITABLE 48;5;235;38;5;139;3
 .cnc                  38;5;7
 .def                  38;5;7
 .ex                   38;5;7
+.exe                  38;5;208;1
 .example              38;5;7
 .feature              38;5;7
+.ged                  38;5;178
 .ger                  38;5;7
 .map                  38;5;7
 .mf                   38;5;7
